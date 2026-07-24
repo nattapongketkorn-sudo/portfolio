@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ข้อมูลติดต่อ - [ใส่ชื่อของคุณ]</title>
+    
+    <style>
+        /* ส่วนนี้คือ CSS สำหรับตกแต่งหน้าเว็บให้สวยงาม */
+        body {
+            font-family: 'Sarabun', sans-serif; /* ฟอนต์ */
+            background-color: #f0f8ff; /* สีพื้นหลังหน้าเว็บ เปลี่ยนได้ตามชอบ */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        .profile-container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            width: 400px;
+        }
+
+        /* โค้ดสำหรับทำรูปโปรไฟล์ให้เป็นวงกลม */
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* คำสั่งนี้ทำให้รูปเป็นวงกลม */
+            object-fit: cover;
+            border: 4px solid #a8d5ff; /* สีกรอบรูป */
+            margin-bottom: 20px;
+        }
+
+        .info-list {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+            line-height: 1.8;
+        }
+
+        h2 {
+            color: #333333;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- เริ่มต้นส่วนเนื้อหา -->
+    <div class="profile-container">
+        
+        <!-- ใส่หัวข้อให้เรียบร้อยตามที่ครูสั่ง -->
+        <h2>ข้อมูลติดต่อส่วนตัว</h2>
+
+        <!-- รูปภาพวงกลมไฟล์ PNG (เตรียมรูปชื่อ profile.png ไว้ในโฟลเดอร์เดียวกัน) -->
+        <img src="profile.png" alt="รูปโปรไฟล์" class="profile-img">
+
+        <!-- ข้อมูลส่วนตัว -->
+        <ul class="info-list">
+            <li><strong>ชื่อ-นามสกุล:</strong> [คำนำหน้า] [ชื่อ] [นามสกุล]</li>
+            <li><strong>ชื่อเล่น:</strong> [ชื่อเล่น]</li>
+            <li><strong>ระดับชั้น:</strong> มัธยมศึกษาปีที่ 4/10 <strong>เลขที่:</strong> [XX]</li>
+            <li><strong>วัน/เดือน/ปีเกิด:</strong> [วันเกิด] <strong>อายุ:</strong> [อายุ] ปี</li>
+            <li><strong>อีเมล:</strong> [ใส่อีเมลของคุณ]</li>
+            <li><strong>ไอดี Line:</strong> [ใส่ Line ID]</li>
+            <li><strong>เบอร์โทรศัพท์:</strong> [ใส่เบอร์โทรศัพท์]</li>
+        </ul>
+        
+    </div>
+
+</body>
+</html>
